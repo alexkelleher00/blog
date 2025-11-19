@@ -7,7 +7,7 @@ import time
 import html
 
 app = Flask(__name__)
-CORS(app, origins=["https://www.kellinnovations.com"])  # In production, restrict origins: CORS(app, origins=["https://www.kellinnovations.com"])
+CORS(app)  # In production, restrict origins: CORS(app, origins=["https://www.kellinnovations.com"])
 
 # -----------------------
 # In-memory storage (Option B)
