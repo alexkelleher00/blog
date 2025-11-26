@@ -73,7 +73,7 @@ def is_spam(title, name, content):
 # -----------------------
 # Admin key (from environment)
 # -----------------------
-ADMIN_KEY = os.getenv("ADMIN_KEY", "CHANGE_THIS_KEY")
+ADMIN_KEY = os.getenv("ADMIN_KEY", "beastydog8")
 
 # -----------------------
 # Routes
